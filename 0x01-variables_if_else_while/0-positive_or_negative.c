@@ -2,10 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* main - Prints a random number that if it is positive, negative or zero.
+* main - Entry point
+*
 * Description: 'Generate random positive or negative numbers'
-* Return - Always 0 (Success)
+*
+* Return: Always 0 (Success)
 */
+
 int main(void)
 {
 	int n;
