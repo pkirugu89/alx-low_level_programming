@@ -1,6 +1,8 @@
 #include <stdio.h>
-/*
- * main-Prints all digits from 1  to 10.
+/**
+ * main -  Prints all digits from 1 to 10.
+ *
+ * Description: 'Print all digits from 1 to 10'
  *
  * Return: Always 0 (Success)
  */
