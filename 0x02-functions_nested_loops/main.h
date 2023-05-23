@@ -9,4 +9,6 @@ void print_alphabet(void);
 void print_alphabet_x10(void);
 /* islower prortotype */
 int _islower(int c);
+/* isalpha prototype */
+int _isalpha(int c);
 #endif
