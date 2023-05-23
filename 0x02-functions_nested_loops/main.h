@@ -17,4 +17,6 @@ int print_sign(int n);
 int _abs(int);
 /* print last digit prototype */
 int print_last_digit(int);
+/* Jack Baer prototype */
+void jack_bauer(void);
 #endif
