@@ -19,4 +19,6 @@ int _abs(int);
 int print_last_digit(int);
 /* Jack Baer prototype */
 void jack_bauer(void);
+/* time table prototype */
+void times_table(void);
 #endif
