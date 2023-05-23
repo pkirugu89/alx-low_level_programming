@@ -11,4 +11,6 @@ void print_alphabet_x10(void);
 int _islower(int c);
 /* isalpha prototype */
 int _isalpha(int c);
+/* print sign prototype */
+int print_sign(int n);
 #endif
