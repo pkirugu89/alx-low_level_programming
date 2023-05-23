@@ -23,4 +23,6 @@ void jack_bauer(void);
 void times_table(void);
 /* add 2 int prototype */
 int add(int, int);
+/* print 0 to 98 prototype */
+void print_to_98(int n);
 #endif
