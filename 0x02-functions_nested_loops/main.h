@@ -21,4 +21,6 @@ int print_last_digit(int);
 void jack_bauer(void);
 /* time table prototype */
 void times_table(void);
+/* add 2 int prototype */
+int add(int, int);
 #endif
