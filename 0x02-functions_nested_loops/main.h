@@ -15,4 +15,6 @@ int _isalpha(int c);
 int print_sign(int n);
 /* abs prototype */
 int _abs(int);
+/* print last digit prototype */
+int print_last_digit(int);
 #endif
