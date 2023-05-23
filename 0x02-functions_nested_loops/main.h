@@ -3,5 +3,6 @@
 
 /* Putchar prototype  */
 int _putchar(char c);
-
+/* print alphabet prototype */
+void print_alphabet(void);
 #endif
