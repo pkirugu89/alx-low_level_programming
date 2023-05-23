@@ -13,4 +13,6 @@ int _islower(int c);
 int _isalpha(int c);
 /* print sign prototype */
 int print_sign(int n);
+/* abs prototype */
+int _abs(int);
 #endif
