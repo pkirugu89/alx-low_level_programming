@@ -5,5 +5,7 @@
 int _isupper(int c);
 /* _isdigit prototype */
 int _isdigit(int c);
+/* multiple integers */
+int mul(int a, int b);
 
 #endif
