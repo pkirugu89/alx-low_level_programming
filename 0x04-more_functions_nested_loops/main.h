@@ -5,18 +5,20 @@
 int _isupper(int c);
 /* _isdigit prototype */
 int _isdigit(int c);
-/* multiple integers */
+/* multiple integers prototype */
 int mul(int a, int b);
-/* print numbers */
+/* print numbers prototype */
 void print_numbers(void);
 /* putchar prototype */
 int _putchar(char c);
-/* print numbers 0 to 9 */
+/* print numbers 0 to 9 prototype */
 void print_most_numbers(void);
-/* print numbers 10 times */
+/* print numbers 10 times prototype */
 void more_numbers(void);
-/* print straight line */
+/* print straight line prototype */
 void print_line(int n);
+/* print diagonal line prototype */
+void print_diagonal(int n);
 
 
 #endif
