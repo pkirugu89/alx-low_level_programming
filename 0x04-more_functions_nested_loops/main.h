@@ -7,5 +7,10 @@ int _isupper(int c);
 int _isdigit(int c);
 /* multiple integers */
 int mul(int a, int b);
+/* print numbers */
+void print_numbers(void);
+/* putchar prototype */
+int _putchar(char c);
+
 
 #endif
