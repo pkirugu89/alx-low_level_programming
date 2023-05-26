@@ -15,6 +15,8 @@ int _putchar(char c);
 void print_most_numbers(void);
 /* print numbers 10 times */
 void more_numbers(void);
+/* print straight line */
+void print_line(int n);
 
 
 #endif
