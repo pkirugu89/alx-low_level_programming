@@ -21,6 +21,8 @@ void print_line(int n);
 void print_diagonal(int n);
 /* print square prototype */
 void print_square(int size);
+/* print triangle prototype */
+void print_triangle(int size);
 
 
 #endif
