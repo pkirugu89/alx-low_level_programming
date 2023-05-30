@@ -19,5 +19,7 @@ void rev_string(char *s);
 void puts2(char *str);
 /* puts_half prototype*/
 void puts_half(char *str);
+/* print_array prototype */
+void print_array(int *a, int n);
 
 #endif
