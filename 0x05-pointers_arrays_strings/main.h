@@ -5,5 +5,7 @@
 void reset_to_98(int *n);
 /* Swap int prototype */
 void swap_int(int *a, int *b);
+/* strlen prototype */
+int _strlen(char *s);
 
 #endif
