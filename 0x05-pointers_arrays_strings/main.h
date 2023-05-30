@@ -21,5 +21,7 @@ void puts2(char *str);
 void puts_half(char *str);
 /* print_array prototype */
 void print_array(int *a, int n);
+/* copies string prototype */
+char *_strcpy(char *dest, char *src);
 
 #endif
