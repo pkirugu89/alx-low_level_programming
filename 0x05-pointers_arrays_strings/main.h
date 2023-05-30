@@ -13,5 +13,7 @@ void _puts(char *str);
 int _putchar(char c);
 /* print in reverse prototype */
 void print_rev(char *s);
+/* reverse a string prototype */
+void rev_string(char *s);
 
 #endif
