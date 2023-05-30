@@ -15,5 +15,8 @@ int _putchar(char c);
 void print_rev(char *s);
 /* reverse a string prototype */
 void rev_string(char *s);
+/* puts2 prototype */
+void puts2(char *str);
+
 
 #endif
