@@ -11,6 +11,7 @@ int _strlen(char *s);
 void _puts(char *str);
 /* _putchar prototype */
 int _putchar(char c);
-
+/* print in reverse prototype */
+void print_rev(char *s);
 
 #endif
