@@ -4,5 +4,7 @@
 char *_strcat(char *dest, char *src);
 /* Task 1: Concatenate two strings */
 char *_strncat(char *dest, char *src, int n);
+/* Task 2: copy a string prototype */
+char *_strncpy(char *dest, char *src, int n);
 
 #endif
