@@ -12,5 +12,6 @@ int _strcmp(char *s1, char *s2);
 void reverse_array(int *a, int n);
 /* Task 5: Change lowercase string to uppercase prototype */
 char *string_toupper(char *);
-
+/* Task 6: Capitalize all words prototype */
+char *cap_string(char *);
 #endif
