@@ -10,5 +10,7 @@ char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
 /* Task 4: Reverse array of int contents */
 void reverse_array(int *a, int n);
+/* Task 5: Change lowercase string to uppercase prototype */
+char *string_toupper(char *);
 
 #endif
