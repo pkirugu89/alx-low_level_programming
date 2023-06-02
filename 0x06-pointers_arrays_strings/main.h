@@ -14,4 +14,6 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *);
 /* Task 6: Capitalize all words prototype */
 char *cap_string(char *);
+/* Task 7: Encode string into 1337 prototype */
+char *leet(char *);
 #endif
