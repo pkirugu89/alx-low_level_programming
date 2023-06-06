@@ -16,5 +16,6 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 /* Task 6: Print chessboard prototype */
 void print_chessboard(char (*a)[8]);
-
+/* Task 7: Print sum of diagonals prototype */
+void print_diagsums(int *a, int size);
 #endif
