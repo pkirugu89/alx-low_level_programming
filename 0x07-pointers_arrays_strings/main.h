@@ -8,5 +8,7 @@ int _putchar(char c);
 char *_memcpy(char *dest, char *src, unsigned int n);
 /* Task 2: Locate a character in a string prototype */
 char *_strchr(char *s, char c);
+/* Task 3: Length of a prefix substring prototype */
+unsigned int _strspn(char *s, char *accept);
 
 #endif
