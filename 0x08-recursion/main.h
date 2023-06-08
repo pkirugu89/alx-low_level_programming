@@ -13,6 +13,8 @@ int _strlen_recursion(char *s);
 int factorial(int n);
 /* Task 4: return  power to y prototype */
 int _pow_recursion(int x, int y);
+/* Task 5: return natural square of a number */
+int _sqrt_recursion(int n);
 
 
 #endif
