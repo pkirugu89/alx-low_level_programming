@@ -5,5 +5,8 @@
 void _puts_recursion(char *s);
 /* _putchar prototype */
 int _putchar(char c);
+/* Task 1: print string in reverse */
+void _print_rev_recursion(char *s);
+
 
 #endif
