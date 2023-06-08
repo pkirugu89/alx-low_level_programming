@@ -9,6 +9,8 @@ int _putchar(char c);
 void _print_rev_recursion(char *s);
 /* Task 2: return string length prototype */
 int _strlen_recursion(char *s);
+/* Task 3: return factorial of a number prototype */
+int factorial(int n);
 
 
 #endif
