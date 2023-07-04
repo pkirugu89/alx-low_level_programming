@@ -37,5 +37,12 @@ int sum_listint(listint_t *head);
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
 /* Task 10: Deletes the node of index of linked list prototype */
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
-
+/* Task 11: Reverses a Linked list prototype */
+listint_t *reverse_listint(listint_t **head);
+/* Task 12: Print the node count in linked list prototype */
+size_t print_listint_safe(const listint_t *head);
+/* Task 13: Free list in a linked list prototype */
+size_t free_listint_safe(listint_t **h);
+/* Task 14: Find loop in a linked list prototype */
+listint_t *find_listint_loop(listint_t *head);
 #endif
