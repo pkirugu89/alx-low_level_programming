@@ -15,6 +15,7 @@ int factorial(int n);
 int _pow_recursion(int x, int y);
 /* Task 5: return natural square of a number */
 int _sqrt_recursion(int n);
-
+/* Task 6 : return a prime number prototype */
+int is_prime_number(int n);
 
 #endif
