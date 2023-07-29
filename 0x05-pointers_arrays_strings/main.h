@@ -23,5 +23,6 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 /* copies string prototype */
 char *_strcpy(char *dest, char *src);
-
+/* converts a string to an integer prototypr */
+int _atoi(char *s);
 #endif
