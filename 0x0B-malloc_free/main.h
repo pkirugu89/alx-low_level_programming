@@ -12,4 +12,6 @@ char *str_concat(char *s1, char *s2);
 int **alloc_grid(int width, int height);
 /* Task 4: alloc_grid prototype */
 void free_grid(int **grid, int height);
+/* Task 5: Concatenate all arguments prototype */
+char *argstostr(int ac, char **av);
 #endif
