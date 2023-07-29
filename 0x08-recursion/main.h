@@ -17,5 +17,8 @@ int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 /* Task 6 : return a prime number prototype */
 int is_prime_number(int n);
-
+/* Task 7: returns 1 if a string is a palindrome and 0 if not prototype */
+int is_palindrome(char *s);
+/* Task 8: compares two strings and return 1 if both are identical prototype */
+int wildcmp(char *s1, char *s2);
 #endif
