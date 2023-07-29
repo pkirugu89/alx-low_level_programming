@@ -20,5 +20,5 @@ int is_prime_number(int n);
 /* Task 7: returns 1 if a string is a palindrome and 0 if not prototype */
 int is_palindrome(char *s);
 /* Task 8: compares two strings and return 1 if both are identical prototype */
-int wildcmp(char *s1, char *s2);
+int wildcmp(char *x, char *y);
 #endif
