@@ -14,21 +14,22 @@ hash_table_t *hash_table_create(unsigned long int size)
 
 	/* Allocate memory for the hash_table_t struct */
 	h_table = malloc(sizeof(hash_table_t));
-	if (!h_table)
+	if (h_table == NULL)
 	{
 		return (NULL);
 	}
 
-	/* set the size of the hash table */
-	h_table->size = size;
 	/* Allocate memory for the array of hash_node_t* pointers */
-	h_table->array = malloc(size * sizeof(hash_node_t *));
-	if (!(h_table->array))
+	h_table->array = malloc(sizeof(hash_node_t *) * size);
+	if (h_table->array == NULL)
 	{
 		free(h_table);
 		return (NULL);
 	}
-	/* Initialize the array elements to NULL */
+	/* set the size of the hash table */
+	h_table->size = size;
+
+	/* Initialize each element of the array to NULL */
 	for (i = 0; i < size; i++)
 	{
 		h_table->array[i] = NULL;
