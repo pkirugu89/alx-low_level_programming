@@ -1,0 +1,9 @@
+# make file that uses cc - compiler, SRC - .c files, OBJ - object file and NAME - executable name
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:%.c=%.o)
+NAME = school
+
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
