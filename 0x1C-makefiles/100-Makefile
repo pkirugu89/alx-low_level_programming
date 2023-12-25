@@ -1,0 +1,27 @@
+# make file that uses cc - compiler. 
+# SRC - .c files. 
+# OBJ - object file. 
+# NAME - executable name.
+# RM - remove files.
+# CFLAGS - c flags.
+
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:%.c=%.o)
+NAME = school
+RM = rm -f
+CFLAGS = -Wall -Werror -Wextra -pedantic
+
+all: m.h $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+clean:
+	$(RM) *~ $(NAME)
+
+oclean:
+	$(RM) $(OBJ)
+
+fclean: clean oclean
+
+re: fclean all
+
