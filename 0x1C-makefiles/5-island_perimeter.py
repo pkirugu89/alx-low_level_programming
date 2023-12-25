@@ -20,11 +20,12 @@ def island_perimeter(grid):
                 # Every land cell contributes 4 to the perimeter
                 perimeter += 4
             # checks if there's a left island
-            if j < 0 and grid[i][j - 1] == 1:
+            if j > 0 and grid[i][j - 1] == 1:
                 # Deduct 2 if the left neighbor is also land
                 perimeter -= 2
             # check if there's an island northwards (top)
-            if i < 0 and grid[i - 1][j] == 1:
+            if i > 0 and grid[i - 1][j] == 1:
                 # Deduct 2 if the top neighbor is also land
                 perimeter -= 2
+
     return perimeter
